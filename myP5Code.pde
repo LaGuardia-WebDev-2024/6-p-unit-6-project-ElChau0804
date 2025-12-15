@@ -11,7 +11,20 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
+  //skin
+  fill(255,227,87)
+  ellipse (200,200,300,300)
+  //hands
+  ellipse (125,308,90,90)
+  ellipse (275,308,90,90)
+  //eyes
+  fill(0,0,0)
+  ellipse (130,170,85,85)
+  ellipse (265,170,85,85)
+  //sparkle
+  fill (255,255,255)
+ellipse (265,170,25,10)
+ellipse (265,170,10,25)
 
   
 
