@@ -13,6 +13,7 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   //skin
   fill(255,227,87)
+  stroke (0,0,0)
   ellipse (200,200,300,300)
   //hands
   ellipse (125,308,90,90)
@@ -23,8 +24,22 @@ void draw(){
   ellipse (265,170,85,85)
   //sparkle
   fill (255,255,255)
-ellipse (265,170,25,10)
-ellipse (265,170,10,25)
+  noStroke ()
+  quad (127,148,146,168,130,190,109,164)
+  //sparkle
+  translate (140,0,0,0)
+  fill (255,255,255)
+  noStroke ()
+  quad (127,148,146,168,130,190,109,164)
+translate (-140,0,0,0)
+
+//mouth
+fill (154,42,42)
+triangle (173, 245,236, 245, 202, 287)
+
+
+
+
 
   
 
