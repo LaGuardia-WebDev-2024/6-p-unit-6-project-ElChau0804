@@ -15,17 +15,21 @@ void draw(){
   fill(255,227,87)
   stroke (0,0,0)
   ellipse (200,200,300,300)
+  
   //hands
   ellipse (125,308,90,90)
   ellipse (275,308,90,90)
+
   //eyes
   fill(0,0,0)
   ellipse (130,170,85,85)
   ellipse (265,170,85,85)
+
   //sparkle
   fill (255,255,255)
   noStroke ()
   quad (127,148,146,168,130,190,109,164)
+
   //sparkle
   translate (140,0,0,0)
   fill (255,255,255)
